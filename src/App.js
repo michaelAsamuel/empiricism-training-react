@@ -1,12 +1,19 @@
 import "./App.css";
-import { CourseCatalog } from "./features/course-catalog/course-catalog.component";
+import { Routes, Route } from "react-router-dom";
+import Home from "./features/home/home.component.jsx";
+import ContactUs from "./features/contact-us/contact-us.component.jsx";
+import Navigation from "./features/navigation/navigation.component.jsx";
+import { CourseCatalog } from "./features/course-catalog/course-catalog.component.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Empiricism: Learning and Development </h1>
-      <CourseCatalog />
-    </div>
+    <Routes>
+      <Route path="/" element={<Navigation />}>
+        <Route index element={<Home />} />
+        <Route path="contact" element={<ContactUs />} />
+        <Route path="courses" element={<CourseCatalog />} />
+      </Route>
+    </Routes>
   );
 }
 

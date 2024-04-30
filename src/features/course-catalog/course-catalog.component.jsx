@@ -7,6 +7,7 @@ export const CourseCatalog = () => {
 
   return (
     <div className="course-catalog-container">
+      <h2>Course Catalog </h2>
       <div className="preview">
         {courses.map((course) => {
           return <Course key={course.id} course={course} />;
