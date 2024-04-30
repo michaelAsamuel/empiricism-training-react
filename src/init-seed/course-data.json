@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "name": "Full Stack Developer: React with Spring",
+      "description": "This course is designed to equip you with the skills and knowledge needed to become a proficient Full Stack developer using React for the front end and Spring for the back end. You will learn to build modern, scalable web applications that combine the power of these two popular technologies.",
+      "DurationInHours": 40,
+      "CourseDuration": "Mon - Friday: 4 hrs a day for 10 days"
+    },
+    {
+        "id": 2,
+        "name": "UI development with React",
+        "description": "Learn React and Redux for Front end development",
+        "DurationInHours": 8,
+        "CourseDuration": "4 hrs a day for 2 days"
+      },
+      {
+        "id": 3,
+        "name": "Full Stack Developer: Angular with Spring",
+        "description": "This course is designed to equip you with the skills and knowledge needed to become a proficient Full Stack developer using Angular for the front end and Spring for the back end. You will learn to build modern, scalable web applications that combine the power of these two popular technologies.",
+        "DurationInHours": 40,
+        "CourseDuration": "Mon - Friday: 4 hrs a day for 10 days"
+      },
+      {
+        "id": 4,
+        "name": "Business Processes in SAP S4/HANA Asset Management",
+        "description": "Learn how to describe the essential business processes in SAP S4/HANA Asset Management and the integration with other functional areas",
+        "DurationInHours": 160,
+        "CourseDuration": "Mon - Friday: 8 hrs a day for 4 weeks"
+      },
+      {
+        "id": 5,
+        "name": "SAP Financials",
+        "description": "Build the knowledge you need for financial management with SAP Financial Accounting and Management Accounting training.",
+        "DurationInHours": 160,
+        "CourseDuration": "Mon - Friday: 8 hrs a day for 4 weeks"
+      }
+
+
+  ]
+  

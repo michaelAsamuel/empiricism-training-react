@@ -1,0 +1,12 @@
+.course-container {
+min-width: 30%;
+flex-direction: column;
+display: flex;
+align-items: left;
+justify-content: left;
+border: 1px solid black;
+margin: 0 7.5px 15px;
+overflow: hidden;
+
+}
+
