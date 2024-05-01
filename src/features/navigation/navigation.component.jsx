@@ -1,7 +1,12 @@
 import { Outlet, Link } from "react-router-dom";
 import "./navigation.styles.css";
+import CartIcon from "../shopping-cart-icon/cart-icon.component";
+import ShoppingCart from "../shopping-cart/shopping-cart.component";
+import { ShoppingCartContext } from "../../context/shopping-cart.context";
+import { useContext } from "react";
 
 const Navigation = () => {
+  const { isCartOpen, setIsCartOpen } = useContext(ShoppingCartContext);
   return (
     <>
       <div className="nav-bar">
@@ -15,7 +20,9 @@ const Navigation = () => {
           <Link className="nav-link" to="/contact">
             Contact us
           </Link>
+          <CartIcon />
         </div>
+        {isCartOpen && <ShoppingCart />}
       </div>
       <Outlet />
     </>

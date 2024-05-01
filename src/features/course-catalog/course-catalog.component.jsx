@@ -1,10 +1,10 @@
 import "./course-catalog.style.css";
-import courses from "../../init-seed/course-data.json";
-import Course from "../course/course.component.jsx";
+import { CourseCatalogContext } from "../../context/course-catalog.context.jsx";
+import Course from "../course-card/course-card.component.jsx";
+import { useContext } from "react";
 
 export const CourseCatalog = () => {
-  const { id, name, description } = courses;
-
+  const { courses } = useContext(CourseCatalogContext);
   return (
     <div className="course-catalog-container">
       <h2>Course Catalog </h2>

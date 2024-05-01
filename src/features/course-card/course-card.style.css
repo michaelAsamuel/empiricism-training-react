@@ -1,0 +1,13 @@
+.course-container {
+    display: flex;
+    min-width: 30%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    border: 1px solid black;
+    margin: 0 7.5px 15px;
+    overflow: hidden;
+    padding:8px;
+
+}
+
