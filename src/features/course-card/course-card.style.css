@@ -9,5 +9,20 @@
     overflow: hidden;
     padding:8px;
 
+    .course-center {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 5px;
+        font-weight: bold;
+    }
+
 }
 
+button {
+    width: 50%;
+    height: 2em;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,43 @@
+.checkout-container {
+  width: 85%;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto 0;
+
+  .checkout-header {
+    width: 100%;
+    display: flex;
+    min-height: 30px;
+    background-color: rgb(249, 248, 246);
+    border-bottom: 1px solid darkgrey;
+    padding: 15px 0;
+    font-size: 1.1em;
+    align-items: center;
+
+    .header-block {
+      text-transform: capitalize;
+    }
+    .name {
+      width: 75%;
+    }
+
+    .quantity {
+      display: flex;
+      width: 15%;
+    }
+
+    .remove-button {
+      width: 7%;
+      text-align: right;
+      padding-left: 12px;
+    }
+  }
+
+  .total {
+    margin-top: 30px;
+    margin-left: auto;
+    font-size: 36px;
+  }
+}

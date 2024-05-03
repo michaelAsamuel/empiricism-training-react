@@ -1,0 +1,19 @@
+.shopping-cart-item-container {
+    display: grid;
+    width: 100%;
+
+    .shopping-cart-item{
+        display: grid;
+        grid-template-columns: 20fr 2fr;
+        padding: 10px;     
+      }
+    .item-name {
+       font-size: large;  
+       text-align:left;
+    } 
+
+    .item-qty {
+        font-weight: bold;
+        text-align: center;
+    } 
+}
