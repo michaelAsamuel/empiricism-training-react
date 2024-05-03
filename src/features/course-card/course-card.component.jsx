@@ -1,10 +1,13 @@
 import "./course-card.style.css";
+import { useContext, useState } from "react";
+import { ShoppingCartContext } from "../../context/shopping-cart.context";
 
 const Course = ({ course }) => {
   const { id, name, description, CourseDuration } = course;
+  const { cartItems, addItemToCart } = useContext(ShoppingCartContext);
 
-  const addToCartClick = () => {
-    console.log("TODO: Add to cart");
+  const addCourseToCart = () => {
+    addItemToCart(course);
   };
 
   return (
@@ -12,12 +15,11 @@ const Course = ({ course }) => {
       <div>
         <h2>{name}</h2>
         <p>{description}</p>
-        <p>{CourseDuration}</p>
+        <div className="course-center">{CourseDuration}</div>
       </div>
-      <div>
-        <button type="button" onClick={addToCartClick}>
-          {" "}
-          Add to Cart{" "}
+      <div className="course-center">
+        <button type="button" onClick={addCourseToCart}>
+          Add to Cart
         </button>
       </div>
     </div>

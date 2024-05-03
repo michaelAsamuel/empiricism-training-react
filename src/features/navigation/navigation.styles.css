@@ -4,15 +4,14 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
-    background-color: purple;
-    
+    background-color: rgb(249, 248, 246);
   
     .nav-logo {
       height: 100%;
       width: 270px;
       padding: 15px;
       font-size: 1.2em;
-      color: white;
+
     }
   
     .links-container {
@@ -26,7 +25,6 @@
       .nav-link {
         padding: 10px 15px;
         cursor: pointer;
-        color: white;
         font-size: 1.2em;
       }
     }
